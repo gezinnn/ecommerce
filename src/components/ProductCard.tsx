@@ -8,7 +8,7 @@ type Props = {
 
 export default function ProductCard({ product }: Props) {
   return (
-    <Card>
+    <Card className="border hover:scale-103 transition-transform duration-300 m-3">
       <img
         src={product.imageUrl}
         alt={product.name}
